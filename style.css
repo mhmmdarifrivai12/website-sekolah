@@ -1,0 +1,250 @@
+html{
+    scroll-behavior:smooth;
+  }
+
+.jumbotron{
+    background-image: url(img/slide1.jpg);
+    background-size: cover;
+    height: 750px;
+    text-align: center;
+    margin-top: -120px;
+}
+
+.carousel-caption hr{
+    border-color: rgb(255, 170, 0);
+    width: 70px;
+    border-width: 3px;
+}
+
+.carousel-caption .btn{
+    background-color: rgb(255, 170, 0);
+    border: none;
+    border-radius: 10px;
+    padding-bottom: 12px;
+}
+
+.carousel-caption .display-4{
+    margin-top: -440px;
+}
+
+.carousel-caption .btn:hover{
+    background-color: rgb(255, 0, 0);
+}
+.collapse ul li a:hover{
+    background-color: rgba(0,0,0, 0.6);
+}
+
+.collapse ul li a{
+    transition: .4s;
+    margin-right: 3rem;
+    border-radius: 10px;
+}
+.navbar .container .image img{
+    width: 60px;
+    margin-right: 10px;
+}
+.navbar .container a{
+    color: rgb(255, 170, 0);
+}
+
+.container hr{
+    border-color: rgb(255, 170, 0);
+    width: 510px;
+    border-width: 3px;
+}
+
+.container .row .col .pt .font-weight-bold{
+    font-size: 100px;
+}
+
+section .container-2{
+    background-image: url(img/background1.png);
+    background-size: cover;
+    margin-top: -16px;
+}
+
+section .container-2 span{
+    font-size: large;
+    color: rgb(0, 55, 255);
+}
+
+.navbar .container button{
+    border-radius: 10px;
+    border: none;
+    transition: .4s;
+    background-color: rgb(255, 201, 6);
+}
+
+.navbar .container button:hover{
+    background-color:rgb(0, 8, 255);
+    border-radius: 10px;
+}
+
+.modal-content{
+    background-color: rgba(0, 255, 255, 0);
+    border: none;
+}
+.myform {
+    max-width: 100% ;
+    padding: 2em;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.638); 
+    @media(max-width: 576pc){
+        max-width: 90%;
+        margin: 0px auto;
+    }
+    
+}
+
+.modal{
+    border-radius: 10px;
+}
+.modal-body{
+    padding: 0px;
+}
+
+.btn-close{
+    position: absolute;
+    right: 0;
+    padding: 1em;
+    border-radius: 0px 20px 0px 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.307);
+}
+
+.btn-close:hover{
+    background-color: rgba(149, 149, 149, 0.835);
+}
+
+.modal-content{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.modal-body {
+    padding: 0px;
+}
+
+.myform h1{
+    font-size: 2.3em;
+    font-weight: bold;
+}
+
+.form-control{
+    background-color: inherit;
+    color: rgb(0, 0, 0);
+    padding-left: 0px ;
+    border: 0px;
+    border-bottom: 1px solid rgb(0, 0, 0) ;
+}
+.myform .btn{
+    width: 100%;
+    font-weight: 800;
+    background-color: rgba(255, 157, 0, 0.608);
+    border-radius: 10px;
+    padding: 0.5em 0;
+}
+.myform .btn:hover{
+    background-color: rgb(255, 145, 0);
+    color: rgb(0, 0, 0);
+}
+
+.myform p{
+    text-align: center;
+    padding-top: 2em;
+    color: rgb(0, 0, 0);
+}
+
+.myform p a{
+    color: #0015ff;
+    text-decoration: none;
+}
+
+.myform p a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.container-3 .row .col{
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.container-4 .row .col iframe{
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-right: 40px;
+}
+
+.container-2 hr{
+    border-color: rgb(255, 170, 0);
+    width: 300px;
+    border-width: 3px;
+}
+
+.container-3 hr{
+    border-color: rgb(0, 26, 255);
+    width: 300px;
+    border-width: 3px;
+}
+
+.container-4 hr{
+    border-color: rgb(14, 139, 0);
+    width: 300px;
+    border-width: 3px;
+}
+
+section .container-3{
+    background-image: url(img/background2.png);
+    background-size: cover;
+    margin-top: 0px;
+}
+
+section .container-4{
+    background-image: url(img/background3.png);
+    background-size: cover;
+    margin-top: 0px;
+}
+
+.navbar .collapse .dropdown .dropdown-menu{
+    background-color: rgb(255, 255, 255);
+}
+
+.prestasi .modal-dialog .modal-content{
+    background-color:rgb(255, 255, 255);
+
+    margin-left: auto;
+    border-radius: 15px;
+}
+
+.prestasi .modal-dialog .modal-content h3{
+    padding-top: 10px;
+}
+
+.prestasi .modal-dialog .modal-content hr{
+    width: 300px;
+    height: 5px;
+    border-width: 3px;
+    border-color: black;
+}
+
+.eskul .modal-dialog .modal-content{
+    background-color:rgb(255, 255, 255);
+
+    margin-left: auto;
+    border-radius: 15px;
+}
+
+.eskul .modal-dialog .modal-content h3{
+    padding-top: 10px;
+}
+
+.eskul .modal-dialog .modal-content hr{
+    width: 300px;
+    height: 5px;
+    border-width: 3px;
+    border-color: black;
+}
